@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url('https://thumbs.dreamstime.com/z/jpg-kubek-kawy-46227174.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+h1{
+    text-align: center;
+    line-height: 90vh;
+    background-color: grey;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.coffee {
+    padding: 20px;
+
+}
+
+.coffee p {
+    line-height: 1.9;
+}
+
+.coffee-img {
+    background-image: url('C:\\Users\\adapia\\Desktop\\studia\\PWA\\coffee-1324126_960_720.webp');
+    background-image: url(C:\\Users\\adapia\\Desktop\\studia\\PWA\\coffee-1324126_960_720.webp);
+}
+
+    @media(min-width: 720px){
+        main{
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .coffee {
+            width: 50%;
+        }
+}

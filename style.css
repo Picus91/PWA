@@ -40,8 +40,8 @@ main {
 }
 
 .coffee-img {
-    background-image: url('C:\\Users\\adapia\\Desktop\\studia\\PWA\\coffee-1324126_960_720.webp');
-    background-image: url(C:\\Users\\adapia\\Desktop\\studia\\PWA\\coffee-1324126_960_720.webp);
+    background-image: url(coffee-1324126_960_720.jpg);
+    height: 90vh;
 }
 
     @media(min-width: 720px){

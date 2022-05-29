@@ -3,7 +3,7 @@
     "background_color": "#f69435",
     "display": "browser",
     "scope": "/",
-    "start_url": "/https://picus91.github.io/PWA/",
+    "start_url": "https://picus91.github.io/PWA/",
     "name": "coffee app",
     "short_name": "coffee",
     "description": "coffee",

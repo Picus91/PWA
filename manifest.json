@@ -2,7 +2,7 @@
     "theme_color": "#cbf1e8",
     "background_color": "#cbf1e8",
     "display": "browser",
-    "scope": "/",
+    "scope": "https://picus91.github.io/PWA/",
     "start_url": "https://picus91.github.io/PWA",
     "name": "FC Barcelona blog",
     "short_name": "FCB",

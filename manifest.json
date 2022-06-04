@@ -9,7 +9,7 @@
     "description": "blog o klubie sportowym FC barcelonie",
     "icons": [
         {
-            "src": "icon-192x192.png",
+            "src": "manifest/icon-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },

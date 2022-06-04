@@ -5,16 +5,22 @@
 }
 
 header{
-    background-image: url(coffee-1324126_960_720.jpg);
+    background-image: url('https://cdn.pixabay.com/photo/2017/05/14/11/33/football-2311831_960_720.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 90vh;
+    height: 50vh;
+    background-color: rgb(23, 23, 201);
+}
+main {
+    width: 100%;
 }
 
-h1{
+h1 {
+    padding: 20px;
     text-align: center;
-    line-height: 90vh;
+    background-color: brown;
+    color: white;
 }
 
 footer {
@@ -24,23 +30,44 @@ footer {
     color: white;
 }
 
+
 main {
     display: flex;
     flex-direction: column;
+    background-color: rgb(184, 216, 245);
 }
 
 .coffee {
     padding: 20px;
-
 }
 
 .coffee p {
     line-height: 1.9;
 }
 
-.coffee-img {
-    background-image: url(coffee-1324126_960_720.jpg);
-    height: 90vh;
+.stadion-img {
+    background-image: url('https://cdn.pixabay.com/photo/2019/12/09/12/14/barcelona-4683399_960_720.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+.town-img {
+    background-image: url('https://cdn.pixabay.com/photo/2018/03/14/23/00/barcelona-3226639_960_720.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+.piłkarze-img {
+    background-image: url('https://cdn.pixabay.com/photo/2020/08/02/09/25/jersey-5457156_960_720.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+.liga-img {
+    background-image: url('https://cdn.pixabay.com/photo/2014/06/04/17/31/spain-362238_960_720.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
 }
 
     @media(min-width: 720px){

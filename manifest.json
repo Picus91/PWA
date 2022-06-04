@@ -3,7 +3,7 @@
     "background_color": "#cbf1e8",
     "display": "browser",
     "scope": "/",
-    "start_url": "/",
+    "start_url": "https://picus91.github.io/PWA",
     "name": "FC Barcelona blog",
     "short_name": "FCB",
     "description": "blog o klubie sportowym FC barcelonie",

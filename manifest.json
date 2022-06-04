@@ -2,14 +2,14 @@
     "theme_color": "#cbf1e8",
     "background_color": "#cbf1e8",
     "display": "browser",
-    "scope": "/",
-    "start_url": "https://picus91.github.io/PWA",
+    "scope": "/PWA",
+    "start_url": "https://picus91.github.io/",
     "name": "FC Barcelona blog",
     "short_name": "FCB",
     "description": "blog o klubie sportowym FC barcelonie",
     "icons": [
         {
-            "src": "manifest/icon-192x192.png",
+            "src": "icon-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },

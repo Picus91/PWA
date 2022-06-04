@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.9;
+    font-size: 13px;
 }
 
 header{
@@ -22,7 +24,13 @@ h1 {
     background-color: brown;
     color: white;
 }
-
+h2 {
+    text-align: center;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding: 5px;
+}
 footer {
     padding: 20px;
     text-align: center;
@@ -30,19 +38,25 @@ footer {
     color: white;
 }
 
-
 main {
     display: flex;
     flex-direction: column;
     background-color: rgb(184, 216, 245);
 }
 
-.coffee {
-    padding: 20px;
+.sekcja {
+    padding: 10px;
+    flex-direction: column;
 }
 
-.coffee p {
+.pilkarze {
+    width: 100vw;
+    padding: 10px;
+}
+
+p {
     line-height: 1.9;
+    padding: 0px 10px;
 }
 
 .stadion-img {
@@ -57,8 +71,50 @@ main {
     background-size: cover;
     background-position: center;
 }
+
+.barcelona-muzeum {
+    background-image: url('https://cdn.pixabay.com/photo/2020/03/09/21/30/museum-4917179_960_720.jpg');
+    width: 33%;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 2px;
+}
+.barcelona-plac-despaya {
+    background-image: url('https://cdn.pixabay.com/photo/2022/05/22/17/36/placa-despanya-7214152_960_720.jpg');
+    width: 33%;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 2px;
+}
+.barcelona-miasto {
+    background-image: url('https://cdn.pixabay.com/photo/2020/05/18/22/17/travel-5188598_960_720.jpg');
+    width: 33%;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 2px;
+
+}
+.zdjecia-barcelony {
+    flex-direction: row;
+    display: flex;
+    background-color: black;
+    margin: 10px;
+    padding: 5px;
+}
+
 .piłkarze-img {
     background-image: url('https://cdn.pixabay.com/photo/2020/08/02/09/25/jersey-5457156_960_720.jpg');
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.trophy-img {
+    background-image: url('https://cdn.pixabay.com/photo/2017/12/24/23/30/trophy-3037779_960_720.jpg');
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -69,14 +125,39 @@ main {
     background-size: cover;
     background-position: center;
 }
+.left-column {
+    display: inline-block;
+    text-align: right;
+}
+.right-column {
+    display: inline-block;
+    text-align: left;
+}
+
+.row {
+    text-align: center;
+}
+.stadion-text {
+    padding: 0px 20px;
+}
+.stadion-map {
+    padding: 0 20px;
+    height: 20vh;
+}
+
+.trofea-content {
+    text-align: center;
+}
 
     @media(min-width: 720px){
+        *{
+            font-size: 16px;
+        }
         main{
             flex-wrap: wrap;
             flex-direction: row;
         }
-
-        .coffee {
+        .sekcja {
             width: 50%;
         }
 }
